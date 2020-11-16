@@ -1,0 +1,19 @@
+---
+firstname: Olivia
+surname: Guest  
+role: postdocs
+order:
+
+email:
+
+website: https://oliviaguest.com
+twitter:
+researchgate:
+impactstory:
+orcid:
+github:
+
+image_path: /assets/images/headshots/pic_OG.png
+
+bio: Olivia Guest is a postdoc at the DCCN. She is a computational cognitive modeller, i.e., she develops and evaluates computational accounts for concepts and categorisation — as well as human capacities and behaviours broadly. Olivia is also interested in the role that computational models play in refining our scientific thinking and by extension allow us to select between and improve upon theories. See her publications for more.
+---
