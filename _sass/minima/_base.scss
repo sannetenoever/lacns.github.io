@@ -44,6 +44,11 @@ p {
   text-align: justify;
 }
 
+h4 {
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
 
 /**
  * `main` element
@@ -62,6 +67,13 @@ main {
 //   vertical-align: middle;
 // }
 
+h3.docs-header {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.5rem;
+  color: $grey-color;
+}
+
 .person {
   min-height: 15rem;
   padding: 0 0 4rem 0;
@@ -70,6 +82,8 @@ main {
 .person .name {
   display: block;
   clear: both;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .person ul {

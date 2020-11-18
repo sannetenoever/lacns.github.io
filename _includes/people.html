@@ -23,18 +23,16 @@
 
 <div class="people">
 
-<!--
+
     {% for person in pi %} {% if forloop.first == true %}
     <div id="{{ person.role }}" style="padding: 1.5rem 0">
-      <h3 class="docs-header">Principal Investigator</a></h3> {% endif %}
-      <a class="person-anchor" id="{{ person.firstname | remove:  ' C.'  }}-{{ person.surname}}"></a>
+      <h3 class="docs-header">Principal Investigator</h3> {% endif %}
       <div class="person">
-        <span class="name"><a href="#{{ person.firstname  | remove: ' C.'  }}-{{ person.surname }}">{{ person.firstname }} {{ person.surname }}</a></span>
+        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
                                             <i class="fa fa-envelope"></i></a></li>
-          </li>
           {% endif %} {% if person.github != nil %}
           <li><a href="//github.com/{{ person.github}}" title="Fork {{ person.firstname }} {{ person.surname}} on GitHub" style="text-decoration:none">
                                             <i class="fab fa-github"></i></a></li>
@@ -64,7 +62,7 @@
       </div>
       {% endfor %}
     </div>
-  </div> -->
+  </div>
 
   <div class="postdocs">
 
