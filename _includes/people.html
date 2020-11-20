@@ -28,7 +28,7 @@
     <div id="{{ person.role }}">
       <h3 class="position-title">Principal Investigator</h3> {% endif %}
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -113,7 +113,7 @@
       <h3 class="position-title">Lab manager</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -156,7 +156,7 @@
       <h3 class="position-title">PhD Students</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -199,7 +199,7 @@
       <h3 class="position-title">Research assistants</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
