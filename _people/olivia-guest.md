@@ -2,16 +2,16 @@
 firstname: Olivia
 surname: Guest  
 role: postdocs
-order:
+order: 1
 
 email:
 
 website: https://oliviaguest.com
-twitter:
-researchgate:
+twitter: o_guest
+researchgate: Olivia_Guest
 impactstory:
-orcid:
-github:
+orcid: 0000-0002-1891-0972
+github: oliviaguest
 
 image_path: /assets/images/headshots/pic_OG.png
 

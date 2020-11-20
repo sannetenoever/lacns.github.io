@@ -7,7 +7,7 @@ order:
 email: karthikeya.kaushik@mpi.nl
 
 website:
-twitter:
+twitter: KarthikeyaKaus1
 researchgate:
 impactstory:
 orcid:

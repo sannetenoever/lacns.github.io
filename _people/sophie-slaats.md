@@ -7,10 +7,10 @@ order:
 email: sophie.slaats@mpi.nl
 
 website: www.sophieslaats.nl
-twitter:
-researchgate:
+twitter: sophie_slaats
+researchgate: Sophie_Slaats
 impactstory:
-orcid:
+orcid: 0000-0001-9596-9073
 github:
 
 image_path: /assets/images/headshots/pic_SS.jpg

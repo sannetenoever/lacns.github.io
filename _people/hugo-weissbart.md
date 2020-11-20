@@ -2,15 +2,15 @@
 firstname: Hugo
 surname: Weissbart
 role: postdocs
-order:
+order: 4
 
 email: hugo.weissbart@donders.ru.nl
 
 website:
-twitter:
-researchgate:
+twitter: Ioanna_Zioga_
+researchgate: Hugo_Weissbart
 impactstory:
-orcid:
+orcid: 0000-0003-2820-3865
 github:
 
 image_path: /assets/images/headshots/pic_HW.jpg

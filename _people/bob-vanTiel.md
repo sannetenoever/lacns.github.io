@@ -1,19 +1,19 @@
 ---
-firstname:
-surname:
-role:
-order:
+firstname: Bob
+surname: van Tiel
+role: postdocs
+order: 3
 
-email:
+email: bobvantiel@gmail.com
 
-website:
+website: https://sites.google.com/site/bobvantiel/
 twitter:
-researchgate:
+researchgate: Bob_Van_Tiel
 impactstory:
-orcid:
+orcid: 0000-0002-4169-3179
 github:
 
-image_path: /assets/images/headshots/pic_.jpg
+image_path: /assets/images/headshots/pic_BT.jpg
 
-bio:
+bio: I am a postdoctoral researcher in the "Language in Interaction" consortium. My research interest is in the semantics and pragmatics of natural language. Previously, I was a postdoctoral researcher at the Zentrum für Allgemeine Sprachwissenschaft in Berlin and at the Université Libre de Bruxelles. I have a Ph.D. in Philosophy from the Radboud University Nijmegen.
 ---

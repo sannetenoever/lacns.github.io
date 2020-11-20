@@ -2,16 +2,16 @@
 firstname: Ryan
 surname: Law
 role: lab-manager
-order: 4
+order:
 
 email: ryan.law@mpi.nl
 
 website: https://rylaw.github.io
 twitter: rmc_law
-researchgate:
+researchgate: Ryan_Law9
 impactstory:
-orcid:
-github: https://github.com/rylaw
+orcid: 0000-0002-1175-4604
+github: rylaw
 
 image_path: /assets/images/headshots/pic_RL.jpg
 

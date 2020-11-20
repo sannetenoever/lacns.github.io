@@ -8,9 +8,9 @@ email: cas.coopmans@mpi.nl
 
 website:
 twitter:
-researchgate:
+researchgate: Cas_Coopmans
 impactstory:
-orcid:
+orcid: 0000-0001-7622-3161
 github:
 
 image_path: /assets/images/headshots/pic_CC.jpg

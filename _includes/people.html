@@ -14,7 +14,7 @@
   {% elsif person.role == 'pi' %}
     {% assign pi = pi | push: person %}
   {% elsif person.role == 'postdocs' %}
-    {% assign postdocs = postdocs | push: person %}
+    {% assign postdocs = postdocs | push: person | sort: 'order' %}
   {% elsif person.role == 'lab-manager' %}
     {% assign lab-manager = lab-manager | push: person %}
   {% endif %}
@@ -23,10 +23,10 @@
 
 <div class="people">
 
-
+  <div class="position">
     {% for person in pi %} {% if forloop.first == true %}
-    <div id="{{ person.role }}" style="padding: 1.5rem 0">
-      <h3 class="docs-header">Principal Investigator</h3> {% endif %}
+    <div id="{{ person.role }}">
+      <h3 class="position-title">Principal Investigator</h3> {% endif %}
       <div class="person">
         <span class="name">{{ person.firstname }} {{ person.surname }}</span>
         <ul>
@@ -64,11 +64,11 @@
     </div>
   </div>
 
-  <div class="postdocs">
+  <div class="position">
 
     {% for person in postdocs %} {% if forloop.first == true %}
-    <div id="{{ person.role }}" style="margin: 1.5rem 0">
-      <h3 class="docs-header">Postdocs</h3> {% endif %}
+    <div id="{{ person.role }}">
+      <h3 class="position-title">Postdocs</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
@@ -106,11 +106,11 @@
     </div>
   </div>
 
-  <div class="lab-manager">
+  <div class="position">
 
     {% for person in lab-manager %} {% if forloop.first == true %}
-    <div id="{{ person.role }}" style="padding: 1.5rem 0">
-      <h3 class="docs-header">Lab manager</h3> {% endif %}
+    <div id="{{ person.role }}">
+      <h3 class="position-title">Lab manager</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <span class="name">{{ person.firstname }} {{ person.surname }}</span>
@@ -149,11 +149,11 @@
     </div>
   </div>
 
-  <div class="phd-students">
+  <div class="position">
 
     {% for person in phd-students %} {% if forloop.first == true %}
-    <div id="{{ person.role }}" style="padding: 1.5rem 0">
-      <h3 class="docs-header">PhD Students</h3> {% endif %}
+    <div id="{{ person.role }}">
+      <h3 class="position-title">PhD Students</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <span class="name">{{ person.firstname }} {{ person.surname }}</span>
@@ -192,11 +192,11 @@
     </div>
   </div>
 
-  <div class="research-assistants">
+  <div class="position">
 
     {% for person in research-assistants %} {% if forloop.first == true %}
-    <div id="{{ person.role }}" style="padding: 1.5rem 0">
-      <h3 class="docs-header">Research assistants</h3> {% endif %}
+    <div id="{{ person.role }}">
+      <h3 class="position-title">Research assistants</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <span class="name">{{ person.firstname }} {{ person.surname }}</span>
@@ -238,7 +238,7 @@
 <!--
   <div class="alumni">
     <div id="alumni" style="padding: 6rem 0">
-      <h3 class="docs-header"><a href="#alumni">Alumni</a></h3><ul class="alumni">
+      <h3 class="position-title"><a href="#alumni">Alumni</a></h3><ul class="alumni">
     {% for alumnus in alumni %}
           <li class="alumnus">{{ alumnus.firstname }} {{ alumnus.surname }} ({{ alumnus.years }})</li>
       {% endfor %}

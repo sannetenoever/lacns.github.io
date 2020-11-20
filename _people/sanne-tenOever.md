@@ -2,16 +2,16 @@
 firstname: Sanne
 surname: ten Oever
 role: postdocs
-order:
+order: 2
 
 email: Sanne.tenOever@mpi.nl
 
 website:
 twitter:
-researchgate:
+researchgate: Sanne_Ten_Oever
 impactstory:
 orcid:
-github:
+github: sannetenoever
 
 image_path: /assets/images/headshots/pic_SO.jpg
 
