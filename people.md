@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-order: 3
+order: 2
 ---
 
 {% include people.html %}

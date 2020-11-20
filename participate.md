@@ -2,7 +2,7 @@
 layout: page
 title: Participate
 permalink: /participate/
-order: 4
+order: 5
 ---
 
 We are seeking native speakers of Dutch to participating in our research studies! Our studies usually require a time commitment of one to two hours and can be scheduled at a time that is convenient for you. As compensation, we provide 10EUR per hour for your time.

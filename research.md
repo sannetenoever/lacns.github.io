@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-order: 2
+order: 3
 ---
 
 As humans, we can produce and understand words and sentences that we have never heard before, as long as we (and the words and sentences) play by the rules. For example, although we have specific expectations about what a given word should sound like, we do not require an exact physical copy, as a machine might, in order to recognize it. Nor do we fail to recognize a word if a person previously unknown to us produces it, or uses it in combination with a word we haven’t heard before. Although we might learn a word in a given phrase or sentence context, or might tend to experience that word more often in one context than in another, we are by no means limited to recognizing or using that word only in that context, nor only in related contexts, nor only in the contexts that we have ever experienced it in.
