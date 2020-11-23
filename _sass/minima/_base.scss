@@ -71,7 +71,7 @@ h3.position-title {
   text-transform: uppercase;
   font-weight: 300;
   color: $grey-color;
-  margin: 4rem 0 0 0;
+  margin: 3.75rem 0 1.25rem;
 }
 
 .position {
@@ -84,21 +84,23 @@ h3.position-title {
 }
 
 .person .name {
-  display: block;
+  display: inline;
   clear: both;
   font-weight: 600;
   font-size: 1.25rem;
+  margin: 0.75rem 0 0.5rem;
 }
 
 .person ul {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.5rem;
+  display: inline;
 }
 
 .person li {
   display: inline;
   list-style: none;
-  padding-right: 0.5rem;
-  font-size: 1.5rem;
+  padding-right: 0.35rem;
+  font-size: 1.25rem;
 }
 
 .person figure {

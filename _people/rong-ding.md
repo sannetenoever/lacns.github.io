@@ -7,11 +7,11 @@ order:
 email: rong.ding@mpi.nl
 
 website:
-twitter:
+twitter: RongD_ing
 researchgate:
 impactstory:
 orcid:
-github:
+github: DrLionheart
 
 image_path: /assets/images/headshots/pic_RD.jpg
 

@@ -5,8 +5,9 @@
 layout: home
 order: 1
 ---
+<h1 class="post-title">Language and Computation in Neural Systems Group</h1>
 
-# Language and Computation in Neural Systems Group
+<img src="{{ base.url }}/assets/images/collage_bw_3x6.png" alt="People photo collage" style="padding: 1.5rem 0; display: block; margin: 0 auto; width: 100%;" />
 
 We are an independent research group embedded in the Max Planck Institute for Psycholinguistics and the Donders Centre for Cognitive Neuroimaging at Radboud University. Our group consists of international scientists who are linguists, cognitive scientists, cognitive neuroscientists, computational neuroscientists, computational modellers, computational scientists, and engineers. We are interested in how the mind and brain processes speech and language.
 
