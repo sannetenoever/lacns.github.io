@@ -11,7 +11,7 @@ twitter: RongD_ing
 researchgate:
 impactstory:
 orcid:
-github: DrLionheart
+github: 
 
 image_path: /assets/images/headshots/pic_RD.jpg
 

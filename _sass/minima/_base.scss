@@ -67,7 +67,7 @@ main {
 //   vertical-align: middle;
 // }
 
-h3.position-title {
+h3.thin {
   text-transform: uppercase;
   font-weight: 300;
   color: $grey-color;
@@ -120,11 +120,36 @@ h3.position-title {
 }
 
 .person .image {
-  float: left;
   padding: 0 2rem 2rem 0;
   width: 12rem;
   height: 12rem;
 }
+
+.logo-block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 0.5rem;
+  list-style: none;
+}
+
+.logo {
+  background: none;
+}
+
+.logo img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 
 /**
  * Figures

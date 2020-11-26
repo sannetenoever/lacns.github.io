@@ -26,7 +26,7 @@
   <div class="position">
     {% for person in pi %} {% if forloop.first == true %}
     <div id="{{ person.role }}">
-      <h3 class="position-title">Principal Investigator</h3> {% endif %}
+      <h3 class="thin">Principal Investigator</h3> {% endif %}
       <div class="person">
         <figure class="image">
           <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname}}" alt="{{ person.firstname }} {{ person.surname}}" />
@@ -70,7 +70,7 @@
 
     {% for person in postdocs %} {% if forloop.first == true %}
     <div id="{{ person.role }}">
-      <h3 class="position-title">Postdocs</h3> {% endif %}
+      <h3 class="thin">Postdocs</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <figure class="image">
@@ -114,7 +114,7 @@
 
     {% for person in phd-students %} {% if forloop.first == true %}
     <div id="{{ person.role }}">
-      <h3 class="position-title">PhD Students</h3> {% endif %}
+      <h3 class="thin">PhD Students</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <figure class="image">
@@ -159,7 +159,7 @@
 
     {% for person in lab-manager %} {% if forloop.first == true %}
     <div id="{{ person.role }}">
-      <h3 class="position-title">Lab manager</h3> {% endif %}
+      <h3 class="thin">Lab manager</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <figure class="image">
@@ -199,12 +199,12 @@
       {% endfor %}
     </div>
   </div>
-  
+
   <div class="position">
 
     {% for person in research-assistants %} {% if forloop.first == true %}
     <div id="{{ person.role }}">
-      <h3 class="position-title">Research assistants</h3> {% endif %}
+      <h3 class="thin">Research assistants</h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
         <figure class="image">
@@ -248,7 +248,7 @@
 <!--
   <div class="alumni">
     <div id="alumni" style="padding: 6rem 0">
-      <h3 class="position-title"><a href="#alumni">Alumni</a></h3><ul class="alumni">
+      <h3 class="thin"><a href="#alumni">Alumni</a></h3><ul class="alumni">
     {% for alumnus in alumni %}
           <li class="alumnus">{{ alumnus.firstname }} {{ alumnus.surname }} ({{ alumnus.years }})</li>
       {% endfor %}

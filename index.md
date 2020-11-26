@@ -5,7 +5,8 @@
 layout: home
 order: 1
 ---
-<h1 class="post-title">Language and Computation in Neural Systems Group</h1>
+
+<h1 class="post-title">Language and Computation in Neural Systems</h1>
 
 <img src="{{ base.url }}/assets/images/collage_bw_3x6.png" alt="People photo collage" style="padding: 1.5rem 0; display: block; margin: 0 auto; width: 100%;" />
 
