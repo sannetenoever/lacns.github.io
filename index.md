@@ -10,7 +10,7 @@ order: 1
 
 {% include collage.html %}
 
-We are an independent research group embedded in the Max Planck Institute for Psycholinguistics and the Donders Centre for Cognitive Neuroimaging at Radboud University. Our group consists of international scientists who are linguists, cognitive scientists, cognitive neuroscientists, computational neuroscientists, computational modellers, computational scientists, and engineers. We are interested in how the mind and brain processes speech and language.
+We are an independent research group embedded in the [Max Planck Institute for Psycholinguistics](https://mpi.nl) and the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/) at Radboud University. Our group consists of international scientists who are linguists, cognitive scientists, cognitive neuroscientists, computational neuroscientists, computational modellers, computational scientists, and engineers. We are interested in how the mind and brain processes speech and language.
 
 The focus of our research group is to understand the computational principles and mechanisms that underlie the representation and processing of human language.  Our aim is to develop a theory about how the brain generates human language that is based on principles from across the language sciences, the cognitive and computational sciences, and neuroscience -- and to do so in a way that stays faithful to the constraints on neural computation, to the formal properties of language, and to human behavior.
 

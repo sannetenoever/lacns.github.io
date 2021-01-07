@@ -69,7 +69,7 @@ main {
 
 h3.thin {
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 200;
   color: $grey-color;
   margin: 3.75rem 0 1.25rem;
 }
@@ -164,7 +164,7 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 3rem;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -178,17 +178,25 @@ figcaption {
   margin: .25rem 0;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(30%);
-  -webkit-filter: grayscale(30%);
+  filter: grayscale(25%);
+  -webkit-filter: grayscale(25%);
+
+  &:hover {
+    filter: grayscale(5%);
+    -webkit-filter: grayscale(5%);
+  }
 }
 
-// /* Responsive layout - makes a two column-layout instead of four columns */
-// @media screen and (max-width: 800px) {
-//   .column {
-//     flex: 50%;
-//     max-width: 50%;
-//   }
-// }
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    padding: 0 0.125rem;
+  }
+
+  .column img {
+    margin: .125rem 0;
+  }
+}
 //
 // /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 // @media screen and (max-width: 600px) {
@@ -227,15 +235,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: darken($brand-color, 25%);
   text-decoration: none;
+  font-weight: bold;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($brand-color, 50%);
   }
 
   &:hover {
-    color: $text-color;
+    color: hsl(0, 100%, 66%);
     text-decoration: underline;
   }
 
@@ -347,7 +356,25 @@ pre {
   }
 }
 
+/**
+ * Buttons
+ */
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #eee;
+  border: none;
+  color: $text-color;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 
+  &:hover {
+    background-color: hsl(0, 100%, 66%);
+    color: white;
+    cursor: pointer;
+  }
+}
 
 /**
  * Tables
@@ -376,3 +403,40 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+/* Create four equal columns that sits next to each other */
+.loc-column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0;
+}
+
+// .loc-column {
+//   margin: .25rem 0;
+//   vertical-align: middle;
+//   width: 100%;
+// }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+  .loc-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+// /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//   .column {
+//     flex: 100%;
+//     max-width: 100%;
+//   }
+// }

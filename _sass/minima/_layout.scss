@@ -39,6 +39,13 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &:hover {
+      color: hsl(0, 100%, 66%);
+      text-decoration: none;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -220,6 +227,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  font-weight: bold;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
