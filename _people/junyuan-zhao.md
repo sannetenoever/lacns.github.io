@@ -1,7 +1,7 @@
 ---
 firstname: Junyuan
 surname: Zhao
-role:
+role: MSc student
 order:
 
 email:

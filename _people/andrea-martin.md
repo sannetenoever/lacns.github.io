@@ -1,8 +1,8 @@
 ---
 firstname: Andrea
 surname: Martin
-role: pi
-order: 1
+role: Group leader
+order:
 
 email: andrea.martin@mpi.nl
 

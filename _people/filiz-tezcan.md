@@ -1,7 +1,7 @@
 ---
 firstname: Filiz
 surname: Tezcan Semerci
-role: phd-students  
+role: PhD student
 order:
 
 email: filiz.tezcan@mpi.nl

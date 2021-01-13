@@ -1,7 +1,7 @@
 ---
 firstname: Rong
 surname: Ding
-role: phd-students
+role: PhD student
 order:
 
 email: rong.ding@mpi.nl
@@ -11,7 +11,7 @@ twitter: RongD_ing
 researchgate:
 impactstory:
 orcid:
-github: 
+github:
 
 image_path: /assets/images/headshots/pic_RD.jpg
 

@@ -1,8 +1,8 @@
 ---
 firstname: Bob
 surname: van Tiel
-role: postdocs
-order: 3
+role: Postdoctoral researcher
+order: 
 
 email: bobvantiel@gmail.com
 

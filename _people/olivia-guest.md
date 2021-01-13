@@ -1,8 +1,8 @@
 ---
 firstname: Olivia
 surname: Guest  
-role: postdocs
-order: 1
+role: Postdoctoral researcher
+order:
 
 email:
 

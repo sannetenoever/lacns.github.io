@@ -1,8 +1,8 @@
 ---
 firstname: Fan
 surname: Bai
-role: phd-students
-order: 
+role: PhD student
+order:
 
 email: fan.bai@mpi.nl
 

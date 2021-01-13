@@ -1,7 +1,7 @@
 ---
 firstname: Thu Ngan
 surname: Dang
-role:
+role: MSc student
 order:
 
 email:
@@ -15,5 +15,5 @@ github:
 
 image_path: /assets/images/headshots/pic_ND.jpg
 
-bio: 
+bio:
 ---

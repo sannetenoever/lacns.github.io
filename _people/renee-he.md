@@ -1,7 +1,7 @@
 ---
 firstname: Renee
 surname: He
-role:
+role: MSc student
 order:
 
 email:

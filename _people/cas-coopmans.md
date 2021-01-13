@@ -1,7 +1,7 @@
 ---
 firstname: Cas
 surname: Coopmans
-role: phd-students
+role: PhD student
 order:
 
 email: cas.coopmans@mpi.nl

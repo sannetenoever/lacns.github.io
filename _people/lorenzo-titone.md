@@ -1,7 +1,7 @@
 ---
 firstname: Lorenzo
 surname: Titone
-role:
+role: MSc student
 order:
 
 email:

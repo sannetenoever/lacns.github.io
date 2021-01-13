@@ -1,7 +1,7 @@
 ---
 firstname: Sophie
 surname: Slaats
-role: phd-students
+role: PhD student
 order:
 
 email: sophie.slaats@mpi.nl
