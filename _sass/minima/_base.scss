@@ -74,54 +74,151 @@ h3.thin {
   margin: 3.75rem 0 1.25rem;
 }
 
-.position {
-  margin: 2rem 0;
-}
-
-.person {
-  min-height: 15rem;
-  padding: 0;
-}
-
-.person .name {
-  display: inline;
-  clear: both;
-  font-weight: 600;
+h5.header {
+  line-height: 200%;
   font-size: 1.25rem;
-  margin: 0.75rem 0 0.5rem;
+  font-weight: 300;
+  text-align: justify;
+  color: lighten($text-color, 25%);
 }
 
-.person ul {
-  margin: 0.5rem 0.5rem;
-  display: inline;
+.members {
+  margin-top: 7rem;
 }
 
-.person li {
-  display: inline;
-  list-style: none;
-  padding-right: 0.35rem;
-  font-size: 1.25rem;
+@media (min-width: 500px) {
+  .member {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 7.5rem 0;
+  }
+
+  .member .image {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .member .image img {
+    border: 0;
+    width: 14rem;
+    filter: grayscale(25%);
+    -webkit-filter: grayscale(25%);
+  }
+
+  .member .info {
+    padding: 0 2rem;
+  }
+
+  .member .info .name {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .member .info .role {
+    text-align: center;
+    // text-transform: capitalize;
+    font-weight: 200;
+    color: $grey-color;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .member .info .contacts {
+    text-align: center;
+    margin: 1.5rem 0;
+
+    ul {
+      display: inline;
+      margin: 0;
+    }
+
+    li {
+      display: inline;
+      list-style: none;
+      padding-right: 0.35rem;
+      font-size: 1.5rem;
+    }
+  }
 }
+
+
+@media (min-width: 900px) {
+  .member {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    max-width: 1100px;
+  }
+
+  .member .image {
+      width: 12rem;
+      display: flex;
+      align-items: baseline;
+      margin:0px
+  }
+
+  .member .image img {
+      width: 12rem;
+      // min-height:200px
+  }
+
+  .member .info {
+    padding-right: 0;
+  }
+
+  .member .info .name {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .member .info .role {
+    text-align: left;
+    margin-bottom: 0.25rem;
+  }
+
+  .member .info .contacts {
+    text-align: left;
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+
+    .email {
+      display: inline;
+    }
+
+    ul {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+
+
+
+
+
 
 .person figure {
   float: left;
   margin: 0 0 -1rem 0;
 }
 
-.person img {
-  border: 0;
-  width: 12rem;
-  clip: rect(0, 12rem, 12rem, 0);
-  position: absolute;
-  filter: grayscale(20%);
-  -webkit-filter: grayscale(20%);
-}
 
-.person .image {
-  padding: 0 2rem 2rem 0;
-  width: 12rem;
-  height: 12rem;
-}
+
+// .person .image {
+//   padding: 0 2rem 2rem 0;
+//   width: 12rem;
+//   height: 12rem;
+// }
 
 .logo-block {
   display: grid;
