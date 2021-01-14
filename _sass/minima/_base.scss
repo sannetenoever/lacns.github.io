@@ -60,12 +60,8 @@ main {
 
 
 /**
- * Images
+ * Headings
  */
-// img {
-//   max-width: 100%;
-//   vertical-align: middle;
-// }
 
 h3.thin {
   text-transform: uppercase;
@@ -82,6 +78,12 @@ h5.header {
   color: lighten($text-color, 25%);
 }
 
+
+
+/**
+ * People
+ */
+
 .members {
   margin-top: 7rem;
 }
@@ -90,7 +92,8 @@ h5.header {
   .member {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 7.5rem 0;
+    margin-top: 7.5rem;
+    margin-bottom: 10rem;
   }
 
   .member .image {
@@ -196,29 +199,25 @@ h5.header {
     }
 
     ul {
-      margin-left: 0.5rem;
+      margin-left: 0;
     }
   }
 }
 
 
 
+/**
+ * Publications
+ */
 
-
-
-
-.person figure {
-  float: left;
-  margin: 0 0 -1rem 0;
+.pub-item {
+  margin: 1.5rem 0;
 }
 
 
-
-// .person .image {
-//   padding: 0 2rem 2rem 0;
-//   width: 12rem;
-//   height: 12rem;
-// }
+/**
+ * Footer logos
+ */
 
 .logo-block {
   display: grid;
@@ -245,7 +244,6 @@ h5.header {
   height: 100%;
 }
 
-
 /**
  * Figures
  */
@@ -257,11 +255,12 @@ figcaption {
   font-size: $small-font-size;
 }
 
-.row {
+.collage {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin: 1.5rem 0 3rem;
+  margin: 1.5rem 0 5rem;
+  align-items: center;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -275,8 +274,8 @@ figcaption {
   margin: .25rem 0;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(25%);
-  -webkit-filter: grayscale(25%);
+  filter: grayscale(40%);
+  -webkit-filter: grayscale(40%);
 
   &:hover {
     filter: grayscale(5%);

@@ -3,5 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-_data
+_data/people.yml
 _includes/people0.html

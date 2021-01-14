@@ -7,10 +7,10 @@ order: 1
 ---
 
 <h1 class="post-title">Language and Computation in Neural Systems</h1>
+<h5 class="header">An independent research group at the
+<a href="https://mpi.nl" target="_blank">Max Planck Institute for Psycholinguistics</a> and the <a href="https://www.ru.nl/donders/" target="_blank">Donders Institute for Brain, Cognition and Behaviour</a>.</h5>
 
 {% include collage.html %}
-
-We are an independent research group embedded in the [Max Planck Institute for Psycholinguistics](https://mpi.nl) and the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/) at Radboud University.
 
 The focus of our research group is to understand the computational principles and mechanisms that underlie the representation and processing of human language.  Our aim is to develop a theory about how the brain generates human language that is based on principles from across the language sciences, the cognitive and computational sciences, and neuroscience -- and to do so in a way that stays faithful to the constraints on neural computation, to the formal properties of language, and to human behavior.
 
