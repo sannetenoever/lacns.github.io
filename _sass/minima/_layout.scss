@@ -58,7 +58,7 @@
     color: hsl(0, 100%, 66%);
   }
 
-  @include media-query($on-palm) {
+  @include media-query(700px) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;

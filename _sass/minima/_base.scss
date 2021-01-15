@@ -71,7 +71,7 @@ h3.thin {
 }
 
 h5.header {
-  line-height: 200%;
+  // line-height: 200%;
   font-size: 1.25rem;
   font-weight: 300;
   text-align: justify;
@@ -88,67 +88,70 @@ h5.header {
   margin-top: 7rem;
 }
 
-@media (min-width: 500px) {
+.member .image {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.member .image img {
+  border: 0;
+  width: 14rem;
+  filter: grayscale(25%);
+  -webkit-filter: grayscale(25%);
+}
+
+.member .info .name {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.member .info .role {
+  text-align: center;
+  // text-transform: capitalize;
+  font-weight: 200;
+  color: $grey-color;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.member .info .contacts {
+  text-align: center;
+  margin: 1.5rem 0;
+
+  ul {
+    display: inline;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    list-style: none;
+    padding-right: 0.35rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (min-width: 300px) {
   .member {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 7.5rem;
     margin-bottom: 10rem;
   }
+}
 
+@media (min-width: 500px) {
   .member .image {
     width: 50%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-  .member .image img {
-    border: 0;
-    width: 14rem;
-    filter: grayscale(25%);
-    -webkit-filter: grayscale(25%);
-  }
-
-  .member .info {
-    padding: 0 2rem;
-  }
-
-  .member .info .name {
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-
-  .member .info .role {
-    text-align: center;
-    // text-transform: capitalize;
-    font-weight: 200;
-    color: $grey-color;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 0.5rem;
-  }
-
-  .member .info .contacts {
-    text-align: center;
-    margin: 1.5rem 0;
-
-    ul {
-      display: inline;
-      margin: 0;
-    }
-
-    li {
-      display: inline;
-      list-style: none;
-      padding-right: 0.35rem;
-      font-size: 1.5rem;
-    }
   }
 }
 
@@ -177,6 +180,7 @@ h5.header {
 
   .member .info {
     padding-right: 0;
+    padding-left: $spacing-unit;
   }
 
   .member .info .name {
@@ -412,14 +416,27 @@ pre {
   padding-left: $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
+  @include media-query(900px) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit * 2;
+    padding-left: $spacing-unit * 2;
+  }
+
+  @include media-query(500px) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+
+  @include media-query(300px) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
 }
-
 
 
 /**
