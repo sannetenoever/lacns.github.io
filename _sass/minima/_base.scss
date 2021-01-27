@@ -76,6 +76,7 @@ h5.header {
   font-weight: 300;
   text-align: justify;
   color: lighten($text-color, 25%);
+  margin-bottom: 3rem;
 }
 
 
@@ -208,7 +209,27 @@ h5.header {
   }
 }
 
+/**
+ * Research
+ */
 
+.research {
+  figure {
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+}
 
 /**
  * Publications
@@ -278,13 +299,8 @@ figcaption {
   margin: .25rem 0;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(40%);
-  -webkit-filter: grayscale(40%);
-
-  &:hover {
-    filter: grayscale(5%);
-    -webkit-filter: grayscale(5%);
-  }
+  filter: grayscale(35%);
+  -webkit-filter: grayscale(35%);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
