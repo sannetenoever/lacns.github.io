@@ -1,10 +1,10 @@
 ---
 firstname: Thu Ngan
 surname: Dang
-role: MSc student
+role: BSc student
 order:
 
-email:
+email: Ngan.DangThu@mpi.nl
 
 website:
 twitter:
