@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We are an international group of scientists consisting of linguists, cognitive scientists, cognitive neuroscientists, computational neuroscientists, computational modellers, computational scientists, and engineers. We are interested in how the mind and brain processes speech and language.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: labtwitter?
+twitter_username: 
 github_username: lacns
 
 # Build settings
