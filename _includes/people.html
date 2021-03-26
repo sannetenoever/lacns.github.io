@@ -1,4 +1,4 @@
-{% assign people = site.people | sort: 'surname' %}
+{% assign people = site.people | sort_natural: 'surname' %}
 {% assign group-leader = site.array %}
 {% assign everyone-else = site.array %}
 
@@ -17,7 +17,12 @@
   {% for person in group-leader %}
   <div class="member">
       <div class="image">
-        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
+        {% if person.image_path != '' %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
+        {% else %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" style="visibility: hidden;"/>
+        {% endif %}
+
       </div>
       <div class="info">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
@@ -42,3 +47,8 @@
     </div>
   {% endfor %}
 </div>
+
+<h1 class="post-title">Alumni</h1>
+<ul style="list-style: none; padding: 0; margin: 0;">
+  <li>Greta Kaufeld</li>
+</ul>
