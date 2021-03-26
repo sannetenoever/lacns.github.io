@@ -23,12 +23,15 @@
       {% endfor %}
     </div>
     <div class="column">
-      {% for person in people limit:3 offset:12 %}
+      {% for person in people limit:4 offset:12 %}
         <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
       {% endfor %}
     </div>
     <div class="column">
-      {% for person in people limit:3 offset:15 %}
+      {% for person in people limit:1 offset:16 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+      {% for person in people limit:2 offset:18 %}
         <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
       {% endfor %}
     </div>

@@ -1,6 +1,6 @@
 ---
-firstname: Thu Ngan
-surname: Dang
+firstname: Thu Ngân
+surname: Đặng
 role: BSc student
 order:
 
