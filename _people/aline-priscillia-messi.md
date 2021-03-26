@@ -1,7 +1,7 @@
 ---
 firstname: Aline-Priscillia
 surname: Messi
-role: BSc student
+role: Research assistant
 order:
 
 email: a.p.s.m.o.messi@umail.leidenuniv.nl
