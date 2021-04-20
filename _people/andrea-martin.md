@@ -1,12 +1,12 @@
 ---
-firstname: Andrea
+firstname: Andrea E.
 surname: Martin
 role: Group leader
 order:
 
 email: andrea.martin@mpi.nl
 
-website: https://www.andreaemartin.com
+website: http://www.andreaemartin.com
 twitter: andrea_e_martin
 researchgate:
 impactstory:
@@ -15,5 +15,5 @@ github:
 
 image_path: /assets/images/headshots/pic_AEM.jpg
 
-bio: Dr Andrea E. Martin is a Lise Meitner Research Group Leader of the Language and Computation in Neural Systems Group at the Max Planck Institute for Psycholinguistics and a principal investigator at the Donders Centre for Cognitive Neuroimaging, Radboud University. Dr Martin obtained her PhD in 2010 from New York University having worked with Prof Brian McElree, then worked at Basque Center on Cognition, Brain, and Language as a postdoctoral researcher between 2010 and 2012, at the University of Edinburgh as a Lecturer (US Assistant Professor) in Psychology from 2012 to 2017, and at the MPI as a Staff Scientist in 2016.   
+bio: Andrea E. Martin (she/her) is a Lise Meitner Research Group Leader at the Max Planck Institute for Psycholinguistics and a Principal Investigator at the Donders Centre for Cognitive Neuroimaging at Radboud University in Nijmegen, The Netherlands. Her research group, <i>Language and Computation in Neural Systems</i>, focuses on language processing in the mind and brain. Her work has spanned from the role of memory in sentence comprehension to the processing of structural and semantic aspects of language. Her current focus is on developing a model of language representation and processing that harnesses the computational power of neural oscillations, such that formal properties (viz., compositionality) can be realized in biological and artificial neural networks. Dr. Martin holds a BA in Cognitive Science from Hampshire College in Amherst, Massachusetts, and was awarded a PhD in Experimental Psychology from New York University in 2010. She was a postdoc at the Basque Centre on Cognition, Brain, and Language (2010-2012), a lecturer in Psychology at The University of Edinburgh (2012-2017), and a senior investigator in the Psychology of Language Department at the MPI (2016-2018). She is interested in how modelling can propagate theory-building in cognitive science and cognitive neuroscience, and in open science catalyzing inclusion, diversity, and decolonization in science. She has led several independent research groups; at the University of Edinburgh funded by the ESRC (2012-2019) and her current group is funded by the Netherlands Organization for Scientific Research and the Max Planck Gesellschaft. You can find more information at <a href="www.andreaemartin.com" target="blank">http://www.andreaemartin.com</a>, and follow her on twitter at <a href="https://twitter.com/andrea_e_martin" target="blank">@andrea_e_martin</a>.   
 ---

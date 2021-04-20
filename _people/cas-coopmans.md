@@ -1,5 +1,5 @@
 ---
-firstname: Cas
+firstname: Cas W.
 surname: Coopmans
 role: PhD student
 order:
