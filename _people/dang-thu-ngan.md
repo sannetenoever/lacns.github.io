@@ -1,6 +1,6 @@
 ---
 firstname: Thu Ngân
-surname: Đặng
+surname: Dặng
 role: BSc student
 order:
 
