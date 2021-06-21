@@ -15,5 +15,5 @@ github: rylaw
 
 image_path: /assets/images/headshots/pic_RL.jpg
 
-bio: I am broadly interested in how language constructs and convey meaning. Previously, I worked as a research assistant at New York University Abu Dhabi. I have a BA in Linguistics from UCL. There, I explored my interests in psycholinguistics, experimental pragmatics, and language development through working in psychology and linguistics laboratories in the UK and the US.
+bio: I am broadly interested in how language constructs and conveys meaning. Currently, I am pursuing a Research Master's in Cognitive Neuroscience. Previously, my research as a predoctoral research assistant at New York University Abu Dhabi explored the neural basis of syntactic and discourse processing using magnetoenchephalography. I earned a BA in Linguistics from UCL. There, I explored my interests in linguistic theory, psycholinguistics, and developmental psychology through working in psychology and linguistics laboratories in the UK and the US. 
 ---
