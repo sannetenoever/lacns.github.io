@@ -3,6 +3,8 @@ firstname: Sanne
 surname: ten Oever
 role: Postdoctoral researcher
 order:
+alumni:
+current-position:
 
 email: Sanne.tenOever@mpi.nl
 

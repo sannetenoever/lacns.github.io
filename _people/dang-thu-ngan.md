@@ -3,6 +3,8 @@ firstname: Thu Ngân
 surname: Dặng
 role: BSc student
 order:
+alumni:
+current-position:
 
 email: Ngan.DangThu@mpi.nl
 

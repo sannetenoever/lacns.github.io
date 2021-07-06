@@ -1,11 +1,14 @@
 {% assign people = site.people | sort_natural: 'surname' %}
 {% assign group-leader = site.array %}
 {% assign everyone-else = site.array %}
+{% assign alumni = site.array %}
 
 {% for person in people %}
   {% if person.role == 'Group leader' %}
     {% assign group-leader = group-leader | push: person %}
-  {% else %}
+  {% elsif person.alumni != nil %}
+    {% assign alumni = alumni | push: person | sort: 'alumni' | reverse %}
+  {% elsif person.alumni == nil %}
     {% assign everyone-else = everyone-else | push: person %}
   {% endif %}
 {% endfor %}
@@ -49,6 +52,18 @@
 </div>
 
 <h1 class="post-title">Alumni</h1>
-<ul style="list-style: none; padding: 0; margin: 0;">
-  <li>Dr Greta Kaufeld (PhD student)</li>
-</ul>
+<div class="alumni-grid">
+  {% for person in alumni %}
+  <div class="alum">
+    {% if person.role == 'PhD student' %}
+      <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+      <div class="role">PhD, {{ person.alumni | date: '%Y' }}</div>
+      <div class="">{{ person.current-position }}</div>
+    {% else %}
+      <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+      <div class="role">{{ person.role }}, {{ person.alumni | date: '%Y' }}</div>
+      <div class="">{{ person.current-position }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

@@ -3,6 +3,8 @@ firstname: Fan
 surname: Bai
 role: PhD student
 order:
+alumni:
+current-position:
 
 email: fan.bai@mpi.nl
 

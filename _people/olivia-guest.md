@@ -3,6 +3,8 @@ firstname: Olivia
 surname: Guest  
 role: Postdoctoral researcher
 order:
+alumni:
+current-position:
 
 email:
 

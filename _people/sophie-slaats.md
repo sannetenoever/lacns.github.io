@@ -3,6 +3,8 @@ firstname: Sophie
 surname: Slaats
 role: PhD student
 order:
+alumni:
+current-position:
 
 email: sophie.slaats@mpi.nl
 

@@ -3,6 +3,8 @@ firstname: Bob
 surname: 'van Tiel'
 role: Postdoctoral researcher
 order:
+alumni:
+current-position:
 
 email: bobvantiel@gmail.com
 

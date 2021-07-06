@@ -3,6 +3,8 @@ firstname: Renee
 surname: He
 role: MSc student
 order:
+alumni: 30/04/2021
+current-position:
 
 email:
 

@@ -3,6 +3,8 @@ firstname: Junyuan
 surname: Zhao
 role: MSc student
 order:
+alumni:
+current-position:
 
 email:
 

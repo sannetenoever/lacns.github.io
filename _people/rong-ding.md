@@ -3,6 +3,8 @@ firstname: Rong
 surname: Ding
 role: PhD student
 order:
+alumni:
+current-position:
 
 email: rong.ding@mpi.nl
 

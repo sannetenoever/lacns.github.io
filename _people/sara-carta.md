@@ -3,6 +3,8 @@ firstname: Sara
 surname: Carta
 role: MSc student
 order:
+alumni:
+current-position:
 
 email:
 

@@ -3,6 +3,8 @@ firstname: Ryan
 surname: Law
 role: Lab manager
 order:
+alumni:
+current-position:
 
 email: ryan.law@mpi.nl
 

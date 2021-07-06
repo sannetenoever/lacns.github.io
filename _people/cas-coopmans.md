@@ -3,6 +3,8 @@ firstname: Cas W.
 surname: Coopmans
 role: PhD student
 order:
+alumni:
+current-position:
 
 email: cas.coopmans@mpi.nl
 

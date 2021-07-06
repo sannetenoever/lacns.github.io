@@ -3,6 +3,8 @@ firstname: Filiz
 surname: Tezcan Semerci
 role: PhD student
 order:
+alumni:
+current-position:
 
 email: filiz.tezcan@mpi.nl
 

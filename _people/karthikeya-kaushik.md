@@ -3,6 +3,8 @@ firstname: Karthikeya
 surname: Kaushik
 role: Research assistant
 order:
+alumni:
+current-position:
 
 email: karthikeya.kaushik@mpi.nl
 

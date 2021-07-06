@@ -3,6 +3,8 @@ firstname: Hugo
 surname: Weissbart
 role: Postdoctoral researcher
 order:
+alumni:
+current-position:
 
 email: hugo.weissbart@donders.ru.nl
 
