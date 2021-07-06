@@ -1,7 +1,7 @@
 ---
 firstname: Renee
 surname: He
-role: MSc student
+role: Intern
 order:
 alumni: 30/04/2021
 current-position:
