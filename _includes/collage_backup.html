@@ -1,0 +1,46 @@
+{% assign people = site.people %}
+{% assign current-member = site.array %}
+
+{% for person in people %}
+  {% if person.alumni == nil %}
+    {% if person.image_path != '/assets/images/headshots/placeholder.png' %}
+      {% assign current-member = current-member | push: person %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+  <div class="collage">
+    <div class="column">
+      {% for person in current-member limit:3 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for person in current-member limit:3 offset:3 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for person in current-member limit:3 offset:6 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for person in current-member limit:3 offset:9 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for person in current-member limit:3 offset:12 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for person in current-member limit:3 offset:15 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+      {% for person in current-member limit:3 offset:18 %}
+        <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
+      {% endfor %}
+    </div>
+  </div>
