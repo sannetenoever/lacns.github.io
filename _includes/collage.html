@@ -9,33 +9,33 @@
   {% endif %}
 {% endfor %}
 
-<div class="collage">
-  <div class="column">
+<div class="collage-container">
+  <div class="collage-item">
     {% for person in current-member limit:3 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
   </div>
-  <div class="column">
+  <div class="collage-item">
     {% for person in current-member limit:3 offset:3 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
   </div>
-  <div class="column">
+  <div class="collage-item">
     {% for person in current-member limit:3 offset:6 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
   </div>
-  <div class="column">
+  <div class="collage-item">
     {% for person in current-member limit:3 offset:9 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
   </div>
-  <div class="column">
+  <div class="collage-item">
     {% for person in current-member limit:3 offset:12 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
   </div>
-  <div class="column">
+  <div class="collage-item">
     {% for person in current-member limit:3 offset:15 %}
       <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname}}" />
     {% endfor %}
