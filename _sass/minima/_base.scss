@@ -82,49 +82,111 @@ h5.header {
 
 
 /**
- * People
+ * People : use flexbox for responsive layout
  */
 
 .members {
   margin-top: 7rem;
 }
 
+.member {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  max-width: 1100px;
+
+  @include media-query(900px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 7.5rem;
+    margin-bottom: 10rem;
+  }
+}
+
 .member .image {
-  width: 40%;
-  height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  align-items: baseline;
+  margin: 0;
+
+  @include media-query(900px) {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 }
 
 .member .image img {
   border: 0;
   filter: grayscale(25%);
   -webkit-filter: grayscale(25%);
+  width: 12rem;
+
+  @include media-query(900px) {
+    width: 27vw;
+  }
+
+  @include media-query(700px) {
+    width: 31vw;
+  }
+
+  @include media-query(500px) {
+    width: 35vw;
+  }
+
+  @include media-query(500px) {
+    width: 40vw;
+  }
+}
+
+.member .info {
+  padding-right: 0;
+  padding-left: $spacing-unit;
+
+  @include media-query(900px) {
+    padding-left: 0;
+  }
 }
 
 .member .info .name {
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
+  margin-top: 0;
+
+  @include media-query(900px) {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
 }
 
 .member .info .role {
-  text-align: center;
-  // text-transform: capitalize;
+  text-align: left;
   font-weight: 200;
   color: $grey-color;
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
   margin-top: 0.5rem;
+
+  @include media-query(900px) {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .member .info .contacts {
-  text-align: center;
-  margin: 1.5rem 0;
+  text-align: left;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+
+  @include media-query(900px) {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
 
   ul {
     display: inline;
@@ -136,78 +198,15 @@ h5.header {
     list-style: none;
     padding-right: 0.35rem;
     font-size: 1.5rem;
-  }
-}
 
-
-@media (min-width: 300px) {
-  .member {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 7.5rem;
-    margin-bottom: 10rem;
-  }
-}
-
-@media (min-width: 500px) {
-  .member .image {
-    width: 50%;
-  }
-}
-
-
-@media (min-width: 900px) {
-  .member {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    max-width: 1100px;
-  }
-
-  .member .image {
-      width: 12rem;
-      display: flex;
-      align-items: baseline;
-      margin:0px
-  }
-
-  .member .image img {
-      width: 12rem;
-      // min-height:200px
-  }
-
-  .member .info {
-    padding-right: 0;
-    padding-left: $spacing-unit;
-  }
-
-  .member .info .name {
-    text-align: left;
-    margin-top: 0;
-  }
-
-  .member .info .role {
-    text-align: left;
-    margin-bottom: 0.25rem;
-  }
-
-  .member .info .contacts {
-    text-align: left;
-    margin-top: 0.25rem;
-    margin-bottom: 1.5rem;
-
-    .email {
-      display: inline;
-    }
-
-    ul {
-      margin-left: 0;
+    @include media-query(900px) {
+      font-size: 1.75rem;
     }
   }
 }
 
+
+/* create lab photo collage using flexbox */
 .alumni-grid {
   display: flex;
   flex-flow: row wrap;
@@ -220,7 +219,6 @@ h5.header {
   }
 }
 
-/* Create four equal columns that sits next to each other */
 .alum {
   margin: 1rem auto;
   padding: 1rem;
