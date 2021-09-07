@@ -3,8 +3,8 @@ firstname: Olivia
 surname: Guest  
 role: Postdoctoral researcher
 order:
-alumni:
-current-position:
+alumni: 01/09/2021
+current-position: Assistant professor at Radboud University
 
 email:
 
