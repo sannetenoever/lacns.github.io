@@ -3,7 +3,7 @@ firstname: Sara
 surname: Carta
 role: MSc student
 order:
-alumni:
+alumni: 01/10/2021
 current-position:
 
 email:
