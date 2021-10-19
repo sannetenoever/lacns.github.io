@@ -6,6 +6,28 @@
 {% assign year_header = 0 %}
 
 {% for pub in pubs %}
+    {% if pub.Preprint_platform != nil %}
+      {% assign preprints = preprints | push: pub %}
+      {% continue %}
+    {% endif %}
+{% endfor %}
+
+{% for preprint in preprints %}
+  <div class="preprints">
+    {% if forloop.first %}
+      <h3 class="thin">Preprints</h3>
+    {% endif %}
+    <div class="pub-items">
+      <div class="pub-item">
+        <span class="pub-authors">{{ preprint.Authors | escape }}</span>
+        <span class="pub-title">{{ preprint.Title }}.</span>
+        <span class="pub-pdf">[<a href="{{ preprint.Preprint_link | escape }}" target="_blank">{{ preprint.Preprint_platform }}</a>]</span>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% for pub in pubs %}
   <div class="publications">
     {% if pub.Preprint_platform != nil %}
       {% assign preprints = preprints | push: pub %}
@@ -30,23 +52,6 @@
         {% if pub.Notes %}
             <span class="pub-notes">{{ pub.Notes }}</span>
         {% endif %}
-      </div>
-    </div>
-  </div>
-{% endfor %}
-
-
-{% for preprint in preprints %}
-  <div class="preprints">
-    {% if forloop.first %}
-      <h3 class="thin">Preprints</h3>
-    {% endif %}
-    <div class="pub-items">
-      <div class="pub-item">
-        <span class="pub-authors">{{ preprint.Authors | escape }}</span>
-        <span class="pub-year">({{ preprint.Date | date: '%Y' }}).</span>
-        <span class="pub-title">{{ preprint.Title }}.</span>
-        <span class="pub-pdf">[<a href="{{ preprint.Preprint_link | escape }}" target="_blank">{{ preprint.Preprint_platform }}</a>]</span>
       </div>
     </div>
   </div>
