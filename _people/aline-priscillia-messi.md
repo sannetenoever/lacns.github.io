@@ -3,8 +3,8 @@ firstname: Aline-Priscillia
 surname: Messi
 role: Research assistant
 order:
-alumni:
-current-position:
+alumni: 01/01/2022
+current-position: PhD student at New York University
 
 email: a.p.s.m.o.messi@umail.leidenuniv.nl
 
