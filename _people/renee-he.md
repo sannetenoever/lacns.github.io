@@ -3,7 +3,7 @@ firstname: Renee
 surname: He
 role: Intern
 order:
-alumni: 30/04/2021
+alumni: 18/01/2021
 current-position:
 
 email:

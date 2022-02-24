@@ -4,7 +4,7 @@ surname: Kaufeld
 role: PhD student
 order:
 alumni: 19/01/2021
-current-position: Lab associate at Disney
+current-position: Swiss National Science Foundation
 
 email:
 
@@ -15,7 +15,7 @@ impactstory:
 orcid:
 github:
 
-image_path:
+image_path: /assets/images/headshots/placeholder.png
 
 bio:
 ---
