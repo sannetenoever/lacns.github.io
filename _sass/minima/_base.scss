@@ -374,6 +374,39 @@ figcaption {
   }
 }
 
+/**
+ * Vacancies
+ */
+
+.vacancies {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.position {
+    margin: 2.5rem 0;
+    font-weight: 300;
+
+    .name {
+      text-align: left;
+      margin-top: 0;
+      font-weight: 600;
+      font-size: 1.75rem;
+
+      // @include media-query(900px) {
+      //   margin-top: 1.5rem;
+      //   margin-bottom: 0.5rem;
+      //   text-align: center;
+      // }
+    }
+
+    .info {
+      display: inline;
+      // color: lighten($brand-color, 5%);
+    }
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
