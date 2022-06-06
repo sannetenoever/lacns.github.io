@@ -8,11 +8,11 @@ current-position:
 
 email: Sanne.tenOever@mpi.nl
 
-website:
-twitter:
+website: https://sannetenoever.github.io/
+twitter: tenoever_sanne
 researchgate: Sanne_Ten_Oever
 impactstory:
-orcid:
+orcid: 0000-0001-7547-5842
 github: sannetenoever
 
 image_path: /assets/images/headshots/pic_SO.jpg
